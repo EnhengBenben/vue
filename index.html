@@ -1,0 +1,28 @@
+<!--Create By yong on 2018/7/26-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vue Demo</title>
+    <script src="vue.js"></script>
+    <style>
+        #root{
+            font-size: 28px;
+            text-align: center;
+            margin: 30px auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="root">{{message}}</div>
+
+    <script>
+        new Vue({
+            el: '#root',
+            data: {
+                message: 'Hello Word'
+            }
+        })
+    </script>
+</body>
+</html>
